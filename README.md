@@ -40,4 +40,15 @@ Centiserver is a website which contains the information about all the centrality
 22. Expected force of infection ✅
 
 ####  These measures are adopted from this repository, where the measures are written in matlab. Here, it is implemented in python. https://github.com/xsxjtu/Complex-Network-Centrality
-23. 
+23. SVDB
+24. Semilocal centrality
+25. Non backtracking
+
+#### The results files attached are as follows
+
+1.
+2.
+3.
+4.
+5.
+6.
