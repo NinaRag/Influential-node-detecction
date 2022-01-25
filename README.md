@@ -10,8 +10,8 @@ Centiserver is a website which contains the information about all the centrality
 
 #### Why do we need many centrality measures?
 
-1. optimal for one application while performs worsel for a different application.
-2. features which identify the most important vertices in a given network do not necessarily generalize to the remaining vertice
+1. optimal for one application while performs worse for a different application.
+2. features which identify the most important vertices in a given network do not necessarily generalize to the remaining vertices.
 
 #### The measures that have been implemented are as follows. Description about the measures could be found in the document.
 
@@ -23,7 +23,7 @@ Centiserver is a website which contains the information about all the centrality
 6. Katz centrlaity
 7. Percolation centrality
 8. PageRank
-9. Freeman centrlaity
+9. Freeman centrality
 10. Cross clique
 11. Dissimilarity measures
 12. HITZ algorithm
