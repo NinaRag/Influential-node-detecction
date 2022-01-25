@@ -38,17 +38,24 @@ Centiserver is a website which contains the information about all the centrality
 20. Cocitations ✅
 21. Hybrid degree centality ✅
 22. Expected force of infection ✅
+23. Reciprocal of Eccentricty ✅
 
 ####  These measures are adopted from this repository, where the measures are written in matlab. Here, it is implemented in python. https://github.com/xsxjtu/Complex-Network-Centrality
-23. SVDB
-24. Semilocal centrality
-25. Non backtracking
+24. SVDB
+25. Semilocal centrality
+26. Non backtracking
 
 #### The results files attached are as follows
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. Communities.csv - information about the communities. (no of nodes, no of sink nodes, max indegree, nodes with max indegree)
+2. HITZ.csv - HITZ algorithm (hub node nd authority node with max hub and authority score, for each community)
+3. bc_cc_kc.csv - Centrality measires(node with max betweeness centrality, closeness centrality and katz centrality with their scores for 13 communities)
+4. citation.csv  - citation information (number of citations and number of papers it cite, for each node)
+5. cocitation.csv - cocited papers (list of cocited papers for each node and the count of the list)
+6. cocitation1.csv - common successors (number of common papers which cite the nodes, for each pair of nodes)
+7. katz (1).csv - Katz centrality (node with highest katz score for each centrality)
+8. pr_dc_ec.csv - Page rank, Degree centrality and Eigen Centrality (Nodes with highest score for these measures, for each community)
+9. prestige.csv - Degree, Proximity and Rank Prestige (for 10 communities)
+10. re_cc_kc.csv - Reciprocal of Eccentrity, Closeness and Katz centrality (27 communities)
+11. source_nodes.csv - Source node of each community
+12. voterank.csv - Voterank Algorithm (node with highest score for each community)
